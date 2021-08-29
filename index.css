@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'the_donaldyuge';
+    src: url('fonts/thedonald-v5no-webfont.woff2') format('woff2'),
+        url('fonts/thedonald-v5no-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'the_donaldyuge';
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 1vw;
+    width: 100vw;
+    height: 100vh;
+}
+
+#title {
+    font-size: 2vw;
+    text-decoration: underline;
+    color: black;
+    z-index: 5;
+    position: relative;
+}
+
+#demo {
+    font-size: 3vw;
+    margin-top: 0vw;
+    z-index: 10;
+    color: black;
+    position: relative;
+}
+
+#bg-color {
+    width: 0%;
+    height: 100%;
+    z-index: 0;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    line-height: 35vh;
+    font-size: 2vw;
+    color: black;
+}
